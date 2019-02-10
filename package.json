@@ -1,0 +1,24 @@
+{
+  "name": "yes",
+  "version": "1.0.0",
+  "description": "homeWork",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SelyanV/js_37.git"
+  },
+  "author": "Vselyan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SelyanV/js_37/issues"
+  },
+  "homepage": "https://github.com/SelyanV/js_37#readme",
+  "dependencies": {
+    "cli-color": "^1.4.0",
+    "weather-js": "^2.0.0",
+    "yargs": "^12.0.5"
+  }
+}
