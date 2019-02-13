@@ -1,0 +1,12 @@
+extends layout
+
+block content
+    h1 Все курсы академии
+
+    form(method='POST', action="http://localhost:3000/courses/add")
+                .fieldset.form-group
+                    label(for='name') Name:
+                    input.form-control(id='name', type='text', name='name', placeholder='Введите имя курса')
+                    small.text-muted Добавьте свой новый курс.
+                button.btn.btn-primary(type="submit") Создать курс
+                a.btn.btn-default(href="courses") Отмена
